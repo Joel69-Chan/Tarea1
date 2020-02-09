@@ -1,6 +1,6 @@
 # Tarea1
 
-## life cycle of data analysis
+## Life cycle of data analysis
 
 ### Business Understanding:
 #### This initial phase focuses on understanding the objectives and requirements of the project from a business perspective, and then converting this knowledge into a definition of data mining problem. A preliminary plan is designed to achieve the objectives. A decision model can be used, especially one created using the decision model and the notation standard.
@@ -37,12 +37,12 @@
 ## EDA
 #### Exploratory Data Analysis (EDA) is an approach / philosophy for data analysis that employs a variety of (mainly graphic) techniques to:
 1. Maximize knowledge of a data set;
-2. discover the underlying structure;
-3. extract important variables;
-4. detect outliers and anomalies;
-5. prove underlying assumptions;
-6. develop parsimonious models; Y
-7. determine the optimal factor setting.
+2. Discover the underlying structure;
+3. Extract important variables;
+4. Detect outliers and anomalies;
+5. Prove underlying assumptions;
+6. Develop parsimonious models; Y
+7. Determine the optimal factor setting.
 
 ### Techniques:
 #### Most EDA techniques are graphic in nature with some quantitative techniques. The reason for the great dependence on graphics is that, by their very nature, the main role of EDA is to explore openly, and graphics give analysts an incomparable power to do so, attract data to reveal their structural secrets and be always ready. to get a new, often unsuspected, view of the data. In combination with the natural pattern recognition capabilities we all possess, the graphics provide, of course, unmatched power to carry it out.
@@ -57,4 +57,20 @@
 
 ### How ETL Works:
 #### Data from one or more sources is extracted and then copied to the data warehouse. When dealing with large volumes of data and multiple source systems, the data is consolidated. ETL is used to migrate data from one database to another, and is often the specific process required to load data to and from data marts and data warehouses, but is a process that is also used to to large convert (transform) databases from one format or type to another.
+
+## Data flow diagram
+#### A data flow diagram (DFD) illustrates the flow and transformation of data for a particular business process. It is a visual representation of how data flows through a system, so you can clearly see where the data comes from, where it goes and how it is stored.
+
+### Elements of a data flow diagram:
+#### The processes are a circle or a square with a horizontal line along the top. A process is a business activity in which data manipulation and transformation occurs. Something happens to the data during a process.
+
+#### The arrows represent the way data flows. Use the type of data that moves through the system as the name for the arrow.
+
+#### An external entity is shown as a square. An external entity can be a person, a system or an application. It is where the data starts or ends.
+
+#### The data stores are rectangles (sometimes with a vertical line in the symbol) and show where the required or produced data is stored in relation to the process.
+
+
+_END_
+
 
