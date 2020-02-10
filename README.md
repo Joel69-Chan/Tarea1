@@ -73,4 +73,9 @@
 
 _END_
 
+## Team
+### Jesús Israel Cua Uicab
+### Santiago Daniel Molina Navarrete
+### Roger Argaez Cocom
+### Joel Chan Méndez
 
